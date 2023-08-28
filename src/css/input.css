@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .top-bg-pattern{
+        background: url("../images/bg-pattern-top.svg");
+    }
+    .bottom-bg-pattern{
+        background: url("../images/bg-pattern-top.svg");
+    }
+
+    .card-bg{
+        background: url("../images/bg-pattern-card.svg");
+    }
+}
